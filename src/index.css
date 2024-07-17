@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 900; */
+  }
+  
+
+  poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+
+    .textTitle {
+      /* font-family: "Orbitron", sans-serif;
+      font-optical-sizing: auto; */
+      font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+    }
+    .textdisc {
+      /* font-family: "Orbitron", sans-serif;
+      font-optical-sizing: auto; */
+      font-family: 'Poppins', sans-serif;
+  font-optical-sizing: auto;
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    @layer components {
+      .btn-primary {
+        @apply px-4 py-2 bg-cyan-500 text-white font-semibold rounded-lg shadow-md hover:bg-cyan-600 transition-colors;
+      }
+    
+      .btn-secondary {
+        @apply px-4 py-2 bg-transparent text-white font-semibold rounded-lg border border-white hover:bg-white hover:text-slate-900 transition-colors;
+      }
+    }
