@@ -95,7 +95,7 @@ HavenSeek is designed to streamline the real estate process by providing a platf
 4. Start the server:
 
    ```bash
-   npm start
+   nodemon index.js
    ```
 
 5. The server will run on `http://localhost:5000` (or any port you specify).
