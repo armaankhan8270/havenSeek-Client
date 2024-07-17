@@ -1,70 +1,125 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+For Serve side go to https://github.com/armaankhan8270/HavenSeek
 
-### `npm start`
+# HavenSeek
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A comprehensive real estate marketplace platform that connects buyers, sellers, and agents. This project includes a client-side built with React and a server-side built with Node.js and Express.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Client](#client)
+  - [Server](#server)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Description
 
-### `npm run build`
+HavenSeek is designed to streamline the real estate process by providing a platform where users can search for properties, connect with agents, and read reviews. The application focuses on user experience and scalability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- User registration and authentication
+- Agent profiles with detailed information
+- Property listings with search functionality
+- User reviews and ratings for agents
+- Responsive design for mobile and desktop
+- Admin dashboard for managing listings and users
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+### Client
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- Redux (if used)
+- Tailwind CSS
+- Axios (for API calls)
+- React Router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js
+- Express
+- MongoDB (or any other database)
+- Mongoose (for MongoDB object modeling)
+- JWT (for authentication)
+- dotenv (for environment variables)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+### Client
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Navigate to the client directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   cd client
+   ```
 
-### Code Splitting
+2. Install the dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm install
+   ```
 
-### Analyzing the Bundle Size
+3. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ```bash
+   npm start
+   ```
 
-### Making a Progressive Web App
+4. Open your browser and go to `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Server
 
-### Advanced Configuration
+1. Navigate to the server directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+   ```bash
+   cd server
+   ```
 
-### Deployment
+2. Install the dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+   ```bash
+   npm install
+   ```
 
-### `npm run build` fails to minify
+3. Create a `.env` file in the server directory and add the necessary environment variables (e.g., database URL, JWT secret).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Start the server:
+
+   ```bash
+   npm start
+   ```
+
+5. The server will run on `http://localhost:5000` (or any port you specify).
+
+## Usage
+
+You can use the HavenSeek platform to explore properties, connect with agents, and leave reviews. 
+
+## Contributing
+
+If you'd like to contribute to the project, please fork the repository and submit a pull request. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out to:
+
+- **Armaan Khan Tufail**  
+  Email: karmankkhan@gmail.com  
+  GitHub: [armaankhan8270](https://github.com/armaankhan8270)
+
+---
+
+Feel free to adjust any sections or add more specific details related to your project.
